@@ -3,5 +3,5 @@
 int main()
 {
     webview("Minimal webview example",
-            "https://en.m.wikipedia.org/wiki/Main_Page", 800, 600, 1);
+            "file:///home/vianney/_git/dysbeat/lys-ui/index.html", 800, 600, 1);
 }
