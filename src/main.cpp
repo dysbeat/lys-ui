@@ -1,7 +1,8 @@
-#include <webview.h>
+#include "webview.hpp"
 
 int main()
 {
-    webview("Minimal webview example",
-            "file:///home/vianney/_git/dysbeat/lys-ui/index.html", 800, 600, 1);
+    lys::view v{"Minimal webview example", "index.html"};
+
+    v.run();
 }
