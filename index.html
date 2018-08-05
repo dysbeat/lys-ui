@@ -3,10 +3,26 @@
 
 <head>
     <title>lys-ui</title>
+    <!-- <link rel='stylesheet' href='base.css'> -->
+    <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+    <link rel='stylesheet' href='thirdparty/mdl/material.min.css'>
 </head>
 
 <body>
-    <p>Simple html test.</p>
+    <p class='synopsis'>Simple html
+        <strong>
+            <em>test ....</em>
+        </strong>
+    </p>
+
+    <div class='menu'>
+        <menu></menu>
+    </div>
+
+    <script src="thirdparty/riot/riot.min.js"></script>
+    <script src="thirdparty/mdl/material.min.js"></script>
+    <script src="menu.js"></script>
+    <script>riot.mount('menu')</script>
 </body>
 
 </html>

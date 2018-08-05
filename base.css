@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(235, 210, 174);
+}
+/* 
+a {
+    color: #386597;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0px 0px;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px 3px;
+    margin: 0 0 0 5px;
+    background-color: rgb(85, 80, 80);
+}
+
+li:hover {
+    background-color: rgb(63, 59, 59);
+}
+ */
+ 
+.menu {
+    width: 100px;
+}
+
+.menu-container {
+    background-color: #386597;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.synopsis {
+  color: #7E8184;        /* Light gray */
+  font-style: italic;
+}
+
+.synopsis em {
+    font-style: normal;
+}
